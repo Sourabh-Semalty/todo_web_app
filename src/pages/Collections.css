@@ -1,0 +1,31 @@
+.collection_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.collection_tab {
+    padding-top: 2rem;
+}
+.collection_title {
+    font-size: 1.8rem;
+    color: var(--text-white);
+}
+.collection_dropdown {
+    color: var(--text-gray);
+    transition: color 0.15s ease-in-out;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.collection_dropdown:hover {
+    color: var(--text-white);
+}
+.collections {
+    padding-top: 2rem;
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+    justify-content: center;
+}

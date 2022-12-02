@@ -1,0 +1,48 @@
+.collection_card {
+    min-width: 250px;
+    background-color: var(--header-bg);
+    padding: 1rem;
+    border-radius: 20px;
+}
+.collection_card .icon_circle {
+    background-color: #ed75a1;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    color: var(--text-white);
+    width: 48px;
+    height: 48px;
+    padding: 5px;
+    margin-bottom: 2rem;
+    font-size: 1.8rem;
+}
+.collection_card .card_name {
+    font-size: 1.6rem;
+    display: block;
+    color: var(--text-white);
+}
+.collection_card .card_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.collection_card .card_more_info {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color: var(--text-gray);
+}
+.collection_card .task_complete_spinner {
+    width: 30px;
+    height: 30px;
+}
+
+.collection_card.add {
+    background-color: var(--bg-dark);
+    box-shadow: 1px 1px 5px var(--text-gray-light);
+}
+.collection_card .add_collection {
+    color: var(--text-white);
+    display: grid;
+    place-content: center;
+    font-size: 1.8rem;
+}
